@@ -75,12 +75,10 @@ a {
   display:flex;
 }
 
-.flex-form > * {
-  flex-shrink: 1;
-}
 input[type="search"] {
   flex-basis:500px;
 }
+
 select[id="guests"] {
   flex-basis: 180px;
 }
