@@ -49,7 +49,7 @@ a {
   padding:10px;
   background:white;
   line-height:50px;
-  font-size: 20px;
+  font-size: 16px;
   border-radius:0;
   outline:0;
   border-right:1px solid rgba(0,0,0,0.2);
@@ -74,6 +74,13 @@ a {
   border-radius:5px;
   display:flex;
 }
+
+.flex-form > * {
+  flex-shrink: 1;
+}
 input[type="search"] {
   flex-basis:500px;
+}
+select[id="guests"] {
+  flex-basis: 180px;
 }
